@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#89E4F0">
+<title>Dental Clinic Hamilton | Family, Cosmetic & Emergency Dentist in Hamilton Ontario</title>
+<meta name="description" content="Dental Clinic Hamilton offers trusted family, pediatric, cosmetic and emergency dental care. Accepting new patients. Call +1 (905) 547-4131 to book your visit today.">
+<meta name="keywords" content="dentist hamilton, hamilton clinic dentist, emergency dentist hamilton, dentist in hamilton, pediatric dentist hamilton, family dentist hamilton, cosmetic dentist hamilton, childrens dentist hamilton ontario, hamilton dentists accepting new patients, main street dental">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="Dental Clinic Hamilton">
+<link rel="canonical" href="https://msdentaloffice.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dental Clinic Hamilton | Trusted Family & Emergency Dentist">
+<meta property="og:description" content="Comprehensive dental care in Hamilton Ontario. Family, pediatric, cosmetic and emergency services. Accepting new patients.">
+<meta property="og:url" content="https://dentalclinichamilton.ca/">
+<meta property="og:locale" content="en_CA">
+
+<!-- Preconnect for performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+<!-- Fonts with font-display: swap to avoid FOUT -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            DEFAULT: '#89E4F0',
+            light: '#B3EEF6',
+            dark: '#5CC8D6',
+            deeper: '#2FA5B8',
+            navy: '#0E3A4A'
+          }
+        },
+        fontFamily: {
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+          display: ['"Playfair Display"', 'Georgia', 'serif']
+        }
+      }
+    }
+  }
+</script>
+
+<!-- Critical CSS inline for FCP -->
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .font-display { font-family: 'Playfair Display', Georgia, serif; }
+  .hero-img { width: 100%; height: 100%; object-fit: cover; }
+  .img-fixed { aspect-ratio: 4/3; width: 100%; height: auto; }
+  .img-square { aspect-ratio: 1/1; width: 100%; height: auto; }
+  .img-wide { aspect-ratio: 16/9; width: 100%; height: auto; }
+  @media (max-width: 768px) {
+    .hero-img { object-position: center; }
+  }
+  .fade-up { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+  .service-card:hover { transform: translateY(-6px); }
+  .service-card { transition: transform .3s ease, box-shadow .3s ease; }
+  .pulse-ring { animation: pulseRing 2s infinite; }
+  @keyframes pulseRing {
+    0% { box-shadow: 0 0 0 0 rgba(137, 228, 240, 0.7); }
+    70% { box-shadow: 0 0 0 18px rgba(137, 228, 240, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(137, 228, 240, 0); }
+  }
+</style>
+
+<!-- JSON-LD Structured Data for AI Overview -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Dental Clinic Hamilton",
+  "image": "https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/17a6e2759-7ffb-4eb0-ad7b-973561130a19.png",
+  "telephone": "+19055474131",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hamilton",
+    "addressRegion": "Ontario",
+    "addressCountry": "CA"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "18:00"
+  }],
+  "medicalSpecialty": ["Dentistry","PediatricDentistry","CosmeticDentistry","EmergencyDentistry"],
+  "description": "Dental Clinic Hamilton provides family, pediatric, cosmetic and emergency dental care in Hamilton Ontario. Accepting new patients."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Do you accept new patients?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dental Clinic Hamilton is currently accepting new patients of all ages, including families and children."}},
+    {"@type":"Question","name":"Do you offer emergency dental care?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide same-day emergency dental appointments for severe toothaches, broken teeth, and dental trauma."}},
+    {"@type":"Question","name":"What services do you offer?","acceptedAnswer":{"@type":"Answer","text":"We offer teeth cleaning, clear aligners, dental fillings, dentures, tooth extractions, dental implants, dental braces, and root canal therapy."}}
+  ]
+}
+</script>
+</head>
+<body class="bg-white text-slate-800">
+
+<!-- Top Bar -->
+<div class="bg-brand-navy text-white text-xs md:text-sm">
+  <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-2">
+    <span class="flex items-center gap-2">
+      <svg class="w-4 h-4 text-brand" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+      <a href="tel:+19055474131" class="hover:text-brand transition">+1 (905) 547-4131</a>
+    </span>
+    <span class="hidden sm:inline">Mon–Fri 8:00 AM – 6:00 PM | Sat by appointment</span>
+    <span class="text-brand font-medium">Hamilton Dentists Accepting New Patients</span>
+  </div>
+</div>
+
+<!-- Navigation -->
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100">
+  <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between" aria-label="Main navigation">
+    <a href="#home" class="flex items-center gap-2">
+      <div class="w-10 h-10 rounded-full bg-brand flex items-center justify-center text-brand-navy font-display font-bold text-xl">D</div>
+      <span class="font-display font-bold text-lg md:text-xl text-brand-navy">Dental Clinic Hamilton</span>
+    </a>
+    <ul class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-700">
+      <li><a href="#about" class="hover:text-brand-deeper transition">About</a></li>
+      <li><a href="#services" class="hover:text-brand-deeper transition">Services</a></li>
+      <li><a href="#emergency" class="hover:text-brand-deeper transition">Emergency</a></li>
+      <li><a href="#family" class="hover:text-brand-deeper transition">Family Care</a></li>
+      <li><a href="#cosmetic" class="hover:text-brand-deeper transition">Cosmetic</a></li>
+      <li><a href="#faq" class="hover:text-brand-deeper transition">FAQ</a></li>
+    </ul>
+    <a href="tel:+19055474131" class="bg-brand-navy text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-brand-deeper transition">Call Now</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="relative overflow-hidden bg-gradient-to-br from-brand-light/40 via-white to-brand/30">
+  <div class="max-w-7xl mx-auto px-4 py-14 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+    <div class="fade-up">
+      <span class="inline-block bg-brand text-brand-navy text-xs font-semibold px-3 py-1 rounded-full mb-5">Hamilton Dentists Accepting New Patients</span>
+      <h1 class="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-brand-navy leading-tight">
+        Your Trusted <span class="text-brand-deeper">Dentist in Hamilton</span>, Ontario
+      </h1>
+      <p class="mt-5 text-slate-600 text-lg leading-relaxed max-w-xl">
+        From routine check-ups to emergency care, our Hamilton clinic dentist team delivers gentle, evidence-based dentistry for every member of your family. Experience modern dental care designed around your comfort.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="tel:+19055474131" class="inline-flex items-center gap-2 bg-brand-navy text-white px-7 py-3.5 rounded-full font-semibold hover:bg-brand-deeper transition shadow-lg pulse-ring">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          Book Appointment
+        </a>
+        <a href="#services" class="inline-flex items-center gap-2 bg-white text-brand-navy border border-brand-dark px-7 py-3.5 rounded-full font-semibold hover:bg-brand-light transition">
+          Explore Services
+        </a>
+      </div>
+      <div class="mt-8 flex items-center gap-6 text-sm text-slate-600">
+        <div class="flex items-center gap-2"><span class="text-brand-deeper font-bold">★ 4.9</span> Patient Rating</div>
+        <div class="flex items-center gap-2"><span class="text-brand-deeper font-bold">15+</span> Years Experience</div>
+        <div class="flex items-center gap-2"><span class="text-brand-deeper font-bold">5000+</span> Happy Smiles</div>
+      </div>
+    </div>
+    <div class="fade-up relative">
+      <div class="rounded-3xl overflow-hidden shadow-2xl">
+        <img src="https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/17a6e2759-7ffb-4eb0-ad7b-973561130a19.png" alt="Modern dental clinic interior in Hamilton Ontario" width="800" height="800" class="hero-img" fetchpriority="high" decoding="async">
+      </div>
+      <div class="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-xl p-4 hidden md:flex items-center gap-3">
+        <div class="w-12 h-12 bg-brand rounded-full flex items-center justify-center text-brand-navy">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        </div>
+        <div>
+          <p class="font-semibold text-brand-navy text-sm">Certified Care</p>
+          <p class="text-xs text-slate-500">RCDSO Licensed Team</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    <div class="fade-up order-2 md:order-1">
+      <img src="https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/1725efe75-6359-4fbb-bc9a-ce508aaa59c4.png" alt="Friendly dentist with patient at Hamilton dental clinic" width="800" height="600" class="img-fixed rounded-3xl shadow-lg" loading="lazy" decoding="async">
+    </div>
+    <div class="fade-up order-1 md:order-2">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Welcome to Our Practice</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">A Hamilton Clinic Dentist Built on Trust</h2>
+      <p class="mt-5 text-slate-600 leading-relaxed">
+        For more than fifteen years, <a href="https://msdentaloffice.com/" class="text-brand-deeper font-semibold hover:text-brand-navy hover:underline transition-colors duration-200" title="Dental Clinic Hamilton" rel="dofollow">Dental Clinic Hamilton</a>as served families across the city with a simple promise: honest diagnosis, gentle treatment, and outcomes that last. Our dentist at Hamilton brings together advanced training in restorative, cosmetic, and preventive dentistry with a calm chairside manner that puts nervous patients at ease.
+      </p>
+      <p class="mt-4 text-slate-600 leading-relaxed">
+        Whether you are searching for a family dentist Hamilton trusts for your children, or a cosmetic dentist in Hamilton who can refine your smile, our team tailors every treatment plan to your goals, budget, and timeline. We believe informed patients make better decisions, which is why we explain every option before you commit.
+      </p>
+      <div class="mt-7 grid grid-cols-2 gap-4">
+        <div class="bg-brand-light/50 rounded-xl p-4">
+          <p class="font-display font-bold text-2xl text-brand-navy">15+</p>
+          <p class="text-sm text-slate-600">Years of Practice</p>
+        </div>
+        <div class="bg-brand-light/50 rounded-xl p-4">
+          <p class="font-display font-bold text-2xl text-brand-navy">5,000+</p>
+          <p class="text-sm text-slate-600">Patients Served</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-brand/20 to-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Why Patients Choose Us</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">The Difference You Will Notice at Our Hamilton Office</h2>
+      <p class="mt-4 text-slate-600">Choosing a dentist is personal. Here is what sets our practice apart from other Hamilton dentists accepting new patients.</p>
+    </div>
+    <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="fade-up bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition">
+        <div class="w-12 h-12 bg-brand rounded-xl flex items-center justify-center text-brand-navy mb-4">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/></svg>
+        </div>
+        <h3 class="font-semibold text-brand-navy">Family-Friendly Team</h3>
+        <p class="mt-2 text-sm text-slate-600">A warm, patient environment for children, adults, and seniors under one roof.</p>
+      </div>
+      <div class="fade-up bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition">
+        <div class="w-12 h-12 bg-brand rounded-xl flex items-center justify-center text-brand-navy mb-4">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-brand-navy">Same-Day Emergency</h3>
+        <p class="mt-2 text-sm text-slate-600">Urgent pain? We reserve daily slots so you are seen quickly, not weeks later.</p>
+      </div>
+      <div class="fade-up bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition">
+        <div class="w-12 h-12 bg-brand rounded-xl flex items-center justify-center text-brand-navy mb-4">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-brand-navy">Transparent Pricing</h3>
+        <p class="mt-2 text-sm text-slate-600">Written estimates before treatment, with insurance billing handled in-house.</p>
+      </div>
+      <div class="fade-up bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition">
+        <div class="w-12 h-12 bg-brand rounded-xl flex items-center justify-center text-brand-navy mb-4">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-brand-navy">Modern Technology</h3>
+        <p class="mt-2 text-sm text-slate-600">Digital X-rays, intraoral scanners, and same-day CEREC restorations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services" class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Our Dental Services</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">Comprehensive Care Under One Roof</h2>
+      <p class="mt-4 text-slate-600">As a full-service dentist in Hamilton, we cover preventive, restorative, orthodontic, and cosmetic treatments so you never need to be referred elsewhere.</p>
+    </div>
+    <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">🦷</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Teeth Cleaning</h3>
+        <p class="mt-2 text-sm text-slate-600">Professional scaling and polishing to remove plaque, prevent gum disease, and keep your smile fresh.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">✨</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Clear Aligners</h3>
+        <p class="mt-2 text-sm text-slate-600">Invisible, removable aligners that straighten teeth discreetly without traditional metal braces.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">🔧</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Dental Fillings</h3>
+        <p class="mt-2 text-sm text-slate-600">Tooth-coloured composite fillings that restore decayed teeth while blending seamlessly with your smile.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">😁</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Dentures</h3>
+        <p class="mt-2 text-sm text-slate-600">Custom-fitted partial and full dentures that restore chewing function and facial aesthetics naturally.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">🩺</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Tooth Extractions</h3>
+        <p class="mt-2 text-sm text-slate-600">Gentle extractions for wisdom teeth and damaged teeth, including surgical options when required.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3">⚙️</div>
+        <h3 class="font-semibold text-brand-navy text-lg">Dental Implants</h3>
+        <p class="mt-2 text-sm text-slate-600">Permanent titanium implants that replace missing teeth with the look, feel, and function of natural teeth.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3"></div>
+        <h3 class="font-semibold text-brand-navy text-lg">Dental Braces</h3>
+        <p class="mt-2 text-sm text-slate-600">Traditional and ceramic braces for children, teens, and adults to correct bite and alignment issues.</p>
+      </div>
+      <div class="service-card fade-up bg-gradient-to-br from-brand-light/40 to-white rounded-2xl p-6 border border-brand/30">
+        <div class="text-3xl mb-3"></div>
+        <h3 class="font-semibold text-brand-navy text-lg">Root Canal Therapy</h3>
+        <p class="mt-2 text-sm text-slate-600">Pain-free endodontic treatment that saves infected teeth and eliminates the need for extraction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY DENTIST SECTION -->
+<section id="emergency" class="py-16 md:py-24 bg-brand-navy text-white relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_30%_20%,#89E4F0_0%,transparent_50%)]"></div>
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative">
+    <div class="fade-up">
+      <span class="inline-block bg-brand text-brand-navy text-xs font-semibold px-3 py-1 rounded-full mb-4">24/7 Urgent Care Available</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl mt-2">Hamilton Emergency Dentist When You Need Us Most</h2>
+      <p class="mt-5 text-slate-200 leading-relaxed">
+        Dental emergencies do not wait for business hours. Whether you are dealing with a cracked tooth, sudden swelling, or unbearable pain, our Hamilton emergency dentist team is ready to help. We reserve same-day appointment slots every morning specifically for urgent cases, so you are never left suffering for days.
+      </p>
+      <p class="mt-4 text-slate-200 leading-relaxed">
+        As an emergency dentist in Hamilton trusted by local families, we handle trauma, lost crowns, abscesses, and post-surgical complications with calm efficiency. Call us first, and we will guide you through immediate steps while preparing your chart before you arrive.
+      </p>
+      <a href="tel:+19055474131" class="mt-8 inline-flex items-center gap-2 bg-brand text-brand-navy px-7 py-3.5 rounded-full font-bold hover:bg-brand-light transition">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        Call +1 (905) 547-4131
+      </a>
+    </div>
+    <div class="fade-up">
+      <img src="https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/14ea37746-ac8d-451d-a0f3-daa7eb0a493c.png" alt="Emergency dentist Hamilton providing urgent dental care" width="800" height="600" class="img-fixed rounded-3xl shadow-2xl" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- FAMILY & PEDIATRIC SECTION -->
+<section id="family" class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    <div class="fade-up">
+      <img src="https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/1ceeec0a1-26ce-40a7-8f43-2b8fc2dbf32f.png" alt="Family with children at pediatric dentist Hamilton Ontario" width="800" height="600" class="img-fixed rounded-3xl shadow-lg" loading="lazy" decoding="async">
+    </div>
+    <div class="fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Family & Pediatric Dentistry</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">A Children's Dentist Hamilton Families Trust</h2>
+      <p class="mt-5 text-slate-600 leading-relaxed">
+        Bringing the whole family to one practice simplifies scheduling and builds lifelong dental habits. As a pediatric dentist Hamilton Ontario parents recommend, we focus on early prevention, gentle first visits, and education that makes children excited about oral care.
+      </p>
+      <p class="mt-4 text-slate-600 leading-relaxed">
+        From a toddler's first check-up to teen orthodontics and adult restorative work, our family dentist Hamilton team coordinates care across every stage of life. We use behaviour-guidance techniques, nitrous oxide when appropriate, and a calm environment that turns anxious kids into confident patients.
+      </p>
+      <ul class="mt-6 space-y-2 text-slate-700">
+        <li class="flex items-start gap-2"><span class="text-brand-deeper mt-1">✓</span> First dental visit by age one</li>
+        <li class="flex items-start gap-2"><span class="text-brand-deeper mt-1">✓</span> Sealants and fluoride treatments</li>
+        <li class="flex items-start gap-2"><span class="text-brand-deeper mt-1">✓</span> Teen braces and clear aligners</li>
+        <li class="flex items-start gap-2"><span class="text-brand-deeper mt-1">✓</span> Senior denture and implant care</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- COSMETIC DENTISTRY -->
+<section id="cosmetic" class="py-16 md:py-24 bg-gradient-to-b from-brand/20 to-white">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    <div class="fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Smile Makeovers</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">Cosmetic Dentist in Hamilton for Confident Smiles</h2>
+      <p class="mt-5 text-slate-600 leading-relaxed">
+        A beautiful smile affects how you feel in every room you enter. As a cosmetic dentist Hamilton residents choose for veneers, whitening, and full smile makeovers, we blend artistry with precision to deliver results that look natural and last for years.
+      </p>
+      <p class="mt-4 text-slate-600 leading-relaxed">
+        Our approach starts with a digital smile design consultation so you can preview your new look before any work begins. From porcelain veneers and professional whitening to clear aligners and implant-supported restorations, every treatment is planned around your facial features and personal style.
+      </p>
+      <div class="mt-7 grid grid-cols-2 gap-4">
+        <div class="bg-white rounded-xl p-4 shadow-sm">
+          <p class="font-semibold text-brand-navy">Porcelain Veneers</p>
+          <p class="text-sm text-slate-600 mt-1">Thin shells that transform shape and colour.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow-sm">
+          <p class="font-semibold text-brand-navy">Teeth Whitening</p>
+          <p class="text-sm text-slate-600 mt-1">In-office and take-home professional systems.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow-sm">
+          <p class="font-semibold text-brand-navy">Smile Design</p>
+          <p class="text-sm text-slate-600 mt-1">Digital preview before treatment begins.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow-sm">
+          <p class="font-semibold text-brand-navy">Bonding</p>
+          <p class="text-sm text-slate-600 mt-1">Quick fixes for chips and gaps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="fade-up">
+      <img src="https://image.qwenlm.ai/public_source/f73e8978-b81c-4c11-ae05-bfafa0b7b766/12e2733a2-230b-4217-add6-ddc8ea008cbc.png" alt="Cosmetic dentist Hamilton perfect white smile result" width="800" height="800" class="img-square rounded-3xl shadow-lg" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq" class="py-16 md:py-24 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Common Questions</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">Frequently Asked Questions</h2>
+      <p class="mt-4 text-slate-600">Quick answers to the questions we hear most from new patients.</p>
+    </div>
+    <div class="mt-10 space-y-4">
+      <details class="fade-up group bg-brand-light/30 rounded-2xl p-5 cursor-pointer border border-brand/40">
+        <summary class="font-semibold text-brand-navy flex justify-between items-center list-none">
+          Are you accepting new patients in Hamilton?
+          <span class="text-brand-deeper text-2xl group-open:rotate-45 transition-transform">+</span>
+        </summary>
+        <p class="mt-3 text-slate-600">Yes. Dental Clinic Hamilton is currently welcoming new patients of all ages. You can book your first appointment by calling +1 (905) 547-4131 or using our online form.</p>
+      </details>
+      <details class="fade-up group bg-brand-light/30 rounded-2xl p-5 cursor-pointer border border-brand/40">
+        <summary class="font-semibold text-brand-navy flex justify-between items-center list-none">
+          Do you handle dental emergencies?
+          <span class="text-brand-deeper text-2xl group-open:rotate-45 transition-transform">+</span>
+        </summary>
+        <p class="mt-3 text-slate-600">Absolutely. We are a Hamilton emergency dentist with same-day appointments reserved daily for urgent cases such as severe toothache, broken teeth, and dental trauma.</p>
+      </details>
+      <details class="fade-up group bg-brand-light/30 rounded-2xl p-5 cursor-pointer border border-brand/40">
+        <summary class="font-semibold text-brand-navy flex justify-between items-center list-none">
+          Do you treat children?
+          <span class="text-brand-deeper text-2xl group-open:rotate-45 transition-transform">+</span>
+        </summary>
+        <p class="mt-3 text-slate-600">Yes. We are a children's dentist Hamilton Ontario families rely on, offering gentle first visits, sealants, fluoride treatments, and early orthodontic assessments.</p>
+      </details>
+      <details class="fade-up group bg-brand-light/30 rounded-2xl p-5 cursor-pointer border border-brand/40">
+        <summary class="font-semibold text-brand-navy flex justify-between items-center list-none">
+          Do you accept insurance?
+          <span class="text-brand-deeper text-2xl group-open:rotate-45 transition-transform">+</span>
+        </summary>
+        <p class="mt-3 text-slate-600">We work with most major Canadian dental insurance providers and submit claims directly on your behalf. We also offer flexible payment plans for larger treatments.</p>
+      </details>
+      <details class="fade-up group bg-brand-light/30 rounded-2xl p-5 cursor-pointer border border-brand/40">
+        <summary class="font-semibold text-brand-navy flex justify-between items-center list-none">
+          How often should I visit the dentist?
+          <span class="text-brand-deeper text-2xl group-open:rotate-45 transition-transform">+</span>
+        </summary>
+        <p class="mt-3 text-slate-600">Most patients benefit from a check-up and cleaning every six months. If you have gum disease or high cavity risk, we may recommend visits every three to four months.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES PAGES (DETAILED) -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-white to-brand/10">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto fade-up">
+      <span class="text-brand-deeper font-semibold uppercase tracking-wider text-sm">Detailed Service Pages</span>
+      <h2 class="font-display font-bold text-3xl md:text-4xl text-brand-navy mt-2">In-Depth Look at Every Treatment We Offer</h2>
+      <p class="mt-4 text-slate-600">Explore each service in detail so you know exactly what to expect before your visit.</p>
+    </div>
+    <div class="mt-12 grid md:grid-cols-2 gap-6">
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Teeth Cleaning in Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Professional dental cleaning, also called prophylaxis, removes plaque and tartar that brushing alone cannot reach. Our hygienist uses ultrasonic scalers and hand instruments to clean above and below the gumline, followed by polishing and fluoride application. Regular cleanings every six months prevent gingivitis, reduce bad breath, and help us detect cavities early. Patients with gum disease may need deeper scaling called root planing, which we perform comfortably with local anaesthetic.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Clear Aligners Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Clear aligners are a modern alternative to traditional braces, using a series of custom-made transparent trays to gradually shift teeth into alignment. We use advanced 3D scanning to map your treatment plan and show you the expected result before you begin. Aligners are removable for eating and cleaning, making oral hygiene easier than with fixed braces. Most cases take between six and eighteen months, with check-ups every six to eight weeks to monitor progress.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Dental Fillings Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">When decay damages a tooth, a dental filling restores its shape, strength, and function. We use tooth-coloured composite resin that bonds directly to the tooth structure, avoiding the need to remove healthy tooth material. The procedure is quick, usually completed in a single visit with local anaesthetic for comfort. Modern composites match your natural shade so closely that the restoration is virtually invisible, even on front teeth.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Dentures Hamilton Ontario</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Dentures replace missing teeth and restore the ability to chew, speak, and smile with confidence. We offer complete dentures for patients missing all teeth in an arch, and partial dentures that clip onto remaining natural teeth. Each denture is custom-crafted from impressions of your mouth to ensure a secure, comfortable fit. Modern dentures look remarkably natural and can be stabilized further with dental implants for patients who want added security.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Tooth Extractions Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Tooth extraction is sometimes necessary when a tooth is too damaged, decayed, or crowded to be saved. We perform both simple extractions for visible teeth and surgical extractions for impacted wisdom teeth. The procedure is done under local anaesthetic, and we provide detailed aftercare instructions to ensure smooth healing. For patients who want to replace the extracted tooth, we discuss implant, bridge, or denture options during the same visit.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Dental Implants Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Dental implants are the gold standard for replacing missing teeth. A small titanium post is surgically placed into the jawbone, where it fuses with the bone over several months in a process called osseointegration. Once healed, a custom crown is attached, giving you a tooth that looks, feels, and functions like a natural one. Implants preserve jawbone density, protect neighbouring teeth, and can last a lifetime with proper care.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Dental Braces Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Dental braces remain one of the most effective ways to correct complex bite issues, crowding, and misalignment. We offer traditional metal braces, ceramic tooth-coloured braces, and self-ligating systems that reduce friction and discomfort. Treatment typically lasts twelve to twenty-four months, with adjustments every four to six weeks. Braces are suitable for children, teens, and adults, and we coordinate with orthodontic specialists when advanced cases require it.</p>
+      </article>
+      <article class="fade-up bg-white rounded-2xl p-7 shadow-sm border border-slate-100">
+        <h3 class="font-display font-bold text-xl text-brand-navy">Root Canal Therapy Hamilton</h3>
+        <p class="mt-3 text-slate-600 text-sm leading-relaxed">Root canal therapy saves a tooth that would otherwise need extraction due to deep decay or infection. The procedure removes the infected pulp from inside the tooth, disinfects the canals, and seals them with a biocompatible material. Despite its reputation, modern root canal treatment is no more uncomfortable than a routine filling thanks to effective local anaesthetic. After healing, a crown is placed to protect the tooth and restore full chewing function.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="py-16 md:py-20 bg-brand-navy text-white relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_70%_80%,#89E4F0_0%,transparent_50%)]"></div>
+  <div class="max-w-5xl mx-auto px-4 text-center relative fade-up">
+    <h2 class="font-display font-bold text-3xl md:text-5xl">Ready for a Healthier, Brighter Smile?</h2>
+    <p class="mt-5 text-slate-200 text-lg max-w-2xl mx-auto">Join thousands of Hamilton families who trust our team with their dental care. New patients are welcome, and emergency appointments are available today.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="tel:+19055474131" class="inline-flex items-center gap-2 bg-brand text-brand-navy px-8 py-4 rounded-full font-bold hover:bg-brand-light transition shadow-lg pulse-ring">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        Call +1 (905) 547-4131
+      </a>
+      <a href="#services" class="inline-flex items-center gap-2 bg-white/10 border border-white/30 text-white px-8 py-4 rounded-full font-bold hover:bg-white/20 transition">
+        View Services
+      </a>
+    </div>
+    <p class="mt-6 text-sm text-slate-300">Mon–Fri 8:00 AM – 6:00 PM | Sat by appointment | Emergency line open 24/7</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-brand-navy text-slate-300 border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
+    <div>
+      <div class="flex items-center gap-2 mb-4">
+        <div class="w-10 h-10 rounded-full bg-brand flex items-center justify-center text-brand-navy font-display font-bold text-xl">D</div>
+        <span class="font-display font-bold text-lg text-white">Dental Clinic Hamilton</span>
+      </div>
+      <p class="text-sm leading-relaxed">Trusted family, pediatric, cosmetic and emergency dental care in Hamilton Ontario. Accepting new patients.</p>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-3">Quick Links</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#about" class="hover:text-brand transition">About Us</a></li>
+        <li><a href="#services" class="hover:text-brand transition">Services</a></li>
+        <li><a href="#emergency" class="hover:text-brand transition">Emergency Care</a></li>
+        <li><a href="#family" class="hover:text-brand transition">Family Dentistry</a></li>
+        <li><a href="#cosmetic" class="hover:text-brand transition">Cosmetic Dentistry</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-3">Services</h4>
+      <ul class="space-y-2 text-sm">
+        <li>Teeth Cleaning</li>
+        <li>Clear Aligners</li>
+        <li>Dental Fillings</li>
+        <li>Dental Implants</li>
+        <li>Root Canal Therapy</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-3">Contact</h4>
+      <ul class="space-y-2 text-sm">
+        <li class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-brand" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          <a href="tel:+19055474131" class="hover:text-brand transition">+1 (905) 547-4131</a>
+        </li>
+        <li>Hamilton, Ontario, Canada</li>
+        <li>Mon–Fri 8:00 AM – 6:00 PM</li>
+        <li>Sat by appointment</li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex flex-wrap justify-between gap-3 text-xs text-slate-400">
+      <p>© 2026 Dental Clinic Hamilton. All rights reserved.</p>
+      <p>Hamilton Dentists Accepting New Patients | RCDSO Licensed</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll Animation Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+  });
+</script>
+</body>
+</html>
+
